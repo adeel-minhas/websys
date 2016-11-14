@@ -1,0 +1,20 @@
+*{
+	/* Display all elements as block elements, causing new lines after each element */
+	display:block;
+}
+
+song{
+  padding-top:10px;
+	padding-bottom: 10px;
+  font-size: 80%;
+  display:block;
+}
+
+artist{
+  display: block;
+  color: blue;
+}
+
+album{
+  font-style: italic;
+}

@@ -1,0 +1,126 @@
+html
+{
+  font-family: 'Inconsolata', monospace;
+  background-color: #CBE32D;
+}
+
+img {
+	/* Set up CSS for fade transition on hover */
+	opacity:0.5;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+img:hover {
+	/* When one hovers over the image, then the image is fully opaque */
+	opacity: 1.0;
+}
+
+ul
+{
+  list-style-type: none;
+}
+
+li::before
+{
+  content: "- ";
+}
+
+.Table
+ {
+   min-width: 100%;
+   border: 1px solid black;
+   table-layout: fixed;
+   border-collapse: collapse;
+ }
+
+ .Heading
+ {
+   font-weight: bold;
+   min-width: 100%;
+   text-align: center;
+   float: left;
+   clear: left;
+   margin: 0 auto;
+ }
+
+ .Row
+ {
+   display: block;
+   min-width: 100%;
+   margin: 0 auto;
+ }
+
+ .album_cover
+ {
+   min-width: 15%;
+   margin: 0 auto;
+   text-align: center;
+   margin-right: 140px;
+   /*I had a margin-right of 400 px here since the cover was not lining up with the cover header*/
+ }
+
+ .title
+ {
+   float:left;
+   min-width:15%;
+   margin: 0 auto;
+   text-align: center;
+ }
+
+ .CellTitle
+ {
+   float:left;
+   min-width: 15%;
+   padding-top: 5px;
+   color: green;
+   font-variant: small-caps;
+   text-align: center;
+
+ }
+
+ .artist
+ {
+   float:left;
+   min-width: 15%;
+   margin: 0 auto;
+   padding-top: 10px;
+   font-size: 120%;
+   font-weight: bold;
+   text-align: center;
+
+ }
+
+ .album
+ {
+   float:left;
+   min-width: 15%;
+   padding-top: 10px;
+   margin: 0 auto;
+   font-style: italic;
+   text-align: center;
+
+ }
+
+ .date
+ {
+   float:left;
+   min-width: 15%;
+   padding-top: 10px;
+   margin: 0 auto;
+   font-size: 80%;
+   text-align: center;
+
+ }
+
+ .genres
+ {
+   float:left;
+   min-width: 15%;
+   margin: 0 auto;
+   font-size: 80%;
+   text-align: center;
+
+ }

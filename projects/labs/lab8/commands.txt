@@ -1,0 +1,21 @@
+Adeel Minhas
+Web Systems Development - Lab 8
+Commands
+7.
+SELECT * FROM `students` ORDER BY 'rin' ASC
+SELECT * FROM `students` ORDER BY 'last name' ASC
+SELECT * FROM `students` ORDER BY 'rcsid' ASC
+SELECT * FROM `students` ORDER BY 'first name' ASC
+
+
+
+8.
+SELECT `students`.`first name`, `students`.`last name`, `grades`.`grade` FROM grades LEFT JOIN students ON students.rin = grades.rin LEFT JOIN courses ON grades.crn = courses.crn WHERE grades.grade > 90
+
+
+9.
+SELECT AVG(`grade`) FROM `grades` where `crn` = 35130 
+(selected from crn from 2nd course)
+
+10.
+SELECT COUNT(`rin`) FROM students

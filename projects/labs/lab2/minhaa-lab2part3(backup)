@@ -1,0 +1,129 @@
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+      <head>
+        <title>Six Favorite Songs - Adeel Minhas (Lab 2 - Part 3)</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <link href="minhaa-lab2part3.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+      </head>
+      <body>
+        <h1> Six Favorite Songs </h1>
+        <div class="Table">
+          <div class="Heading">
+            <div class="title"> Song </div>
+            <div class="title"> Artist </div>
+            <div class="title"> Album </div>
+            <div class="title"> Release Date </div>
+            <div class="title"> Genres </div>
+            <div class="title"> Website </div>
+            <div class="title"> Cover </div>
+          </div>
+        <div class="Row">
+          <p class="CellTitle">Have a Nice Day</p>
+          <p class="CellArtist">Bon Jovi</p>
+          <p class="CellAlbum"><a href="http://www.allmusic.com/album/have-a-nice-day-mw0000378750">Have a Nice Day</a></p>
+          <p class="CellRD">August 30, 2005</p>
+          <div class="CellGenres">
+            <ul>
+              <li>Rock music</li>
+              <li>Hard rock</li>
+              <li>Heavy metal</li>
+              <li>Glam metal</li>
+            </ul>
+          </div>
+          <a class="CellWebsite" href="http://www.bonjovi.com/">http://www.bonjovi.com/</a>
+          <div class="CellCover">
+              <img src="https://images-na.ssl-images-amazon.com/images/I/41TGE7V0K3L._SX355_.jpg" alt="Have a Nice Day" style="width:100px;height:114px;">
+          </div>
+        </div>
+        <div class="Row">
+          <p class="CellTitle">Rebirth of Cool</p>
+          <a class="CellWebsite" href="https://djcam.bandcamp.com/">https://djcam.bandcamp.com/</a>
+          <p class="CellAlbum"><a href="http://www.allmusic.com/album/rebirth-of-cool-mw0002606195">Rebirth of Cool</a></p>
+          <p class="CellRD">January 2, 2012</p>
+          <div class="CellGenres">
+            <ul>
+              <li>Electronic</li>
+              <li>Hip Hop</li>
+              <li>Jazz</li>
+              <li>Funk / Soul</li>
+            </ul>
+          </div>
+          <a class="CellWebsite" href="https://djcam.bandcamp.com/">https://djcam.bandcamp.com/</a>
+          <div class="CellCover">
+              <img src="https://f4.bcbits.com/img/a4224416399_10.jpg" alt="Rebirth of Cool" style="width:100px;height:114px;">
+          </div>
+        </div>
+        <div class="Row">
+          <p class="CellTitle">The Man</p>
+          <p class="CellArtist">Aloe Blacc</p>
+          <p class="CellAlbum"><a href="http://www.allmusic.com/album/lift-your-spirit-mw0002586642">Lift Your Spirit</a></p>
+          <p class="CellRD">October 25, 2013</p>
+          <div class="CellGenres">
+            <ul>
+              <li>Contemporary R&B</li>
+            </ul>
+          </div>
+          <a class="CellWebsite" href="http://www.aloeblacc.com/">http://www.aloeblacc.com/</a>
+          <div class="CellCover">
+              <img src="https://images-na.ssl-images-amazon.com/images/I/71lHp98HejL._SL1500_.jpg" alt="Lift Your Spirit" style="width:100px;height:114px;">
+          </div>
+        </div>
+        <div class="Row">
+          <p class="CellTitle">Breakdown</p>
+          <p class="CellArtist">Jack Johnson</p>
+          <p class="CellAlbum"><a href="http://www.allmusic.com/album/in-between-dreams-mw0000261977">In Between Dreams</a></p>
+          <p class="CellRD">March 1, 2005</p>
+          <div class="CellGenres">
+            <ul>
+              <li>Acoustic music</li>
+              <li>Folk music</li>
+              <li>Folk rock</li>
+            </ul>
+          </div>
+          <a class="CellWebsite" href="http://jackjohnsonmusic.com/">http://jackjohnsonmusic.com/</a>
+            <div class="CellCover">
+                <img src="https://images-na.ssl-images-amazon.com/images/I/71JWCAY6cvL._SL1250_.jpg" alt="In Between Dreams" style="width:100px;height:114px;">
+            </div>
+        </div>
+        <div class="Row">
+          <p class="CellTitle">Stay With Me</p>
+          <p class="CellArtist">Akcent</p>
+          <p class="CellAlbum"><a href="https://www.discogs.com/Akcent-F%C4%83r%C4%83-Lacrimi/release/2008985">Fără Lacrimi</a></p>
+          <p class="CellRD">February 2, 2009</p>
+          <div class="CellGenres">
+                <ul>
+                  <li>Electronic</li>
+                  <li>Pop</li>
+                </ul>
+          </div>
+          <a class="CellWebsite" href="http://www.akcentonline.com/">http://www.akcentonline.com/</a>
+          <div class="CellCover">
+              <img src="http://vignette1.wikia.nocookie.net/lyricwiki/images/b/bc/Akcent_-_F%C4%83r%C4%83_lacrimi.jpg/revision/latest?cb=20120106122142" alt="True Believers" style="width:100px;height:114px;">
+          </div>
+        </div>
+        <div class="Row">
+          <p class="CellTitle">Boulevard of Broken Dreams</p>
+          <p class="CellArtist">Green Day</p>
+          <p class="CellAlbum"><a href="http://www.allmusic.com/album/american-idiot-mw0000387172">American Idiot</a></p>
+          <p class="CellRD">September 20, 2004</p>
+          <div class="CellGenres">
+            <ul>
+              <li>Punk rock</li>
+              <li>Rock opera</li>
+              <li>Pop punk</li>
+              <li>Alternative rock</li>
+              <li>Pop rock</li>
+            </ul>
+          </div>
+          <a class="CellWebsite" href="http://www.greenday.com/">http://www.greenday.com/</a>
+          <div class="CellCover">
+            <img src="http://cps-static.rovicorp.com/3/JPG_500/MI0001/733/MI0001733843.jpg?partner=allrovi.com" alt="American Idiot" style="width:100px;height:114px;">
+          </div>
+        </div>
+      </div>
+      <div class="Endoflist">
+        <p>End of list</p>
+    </div>
+  </body>
+</html>

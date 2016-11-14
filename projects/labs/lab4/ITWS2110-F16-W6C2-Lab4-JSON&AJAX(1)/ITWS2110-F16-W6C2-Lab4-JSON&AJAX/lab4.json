@@ -1,0 +1,70 @@
+{
+  "songs":[
+    {
+      "Name": "Have a Nice Day",
+      "Artist": "Bon Jovi",
+      "Album": "Have a Nice Day",
+      "AlbumCoverArtURL": "https://images-na.ssl-images-amazon.com/images/I/41TGE7V0K3L._SX355_.jpg",
+      "AlbumURL": "http://www.allmusic.com/album/have-a-nice-day-mw0000378750",
+      "Date": "August 30, 2005",
+      "ArtistSiteURL": "http://www.bonjovi.com/",
+      "Genres": "Rock music"
+    },
+
+    {
+      "Name": "Rebirth of Cool",
+      "Artist": "DJ Cam Quartet",
+      "Album": "Rebirth of Cool",
+      "AlbumURL":"http://www.allmusic.com/album/rebirth-of-cool-mw0002606195",
+      "AlbumCoverArtURL": "https://images-na.ssl-images-amazon.com/images/I/71lHp98HejL._SL1500_.jpg",
+      "Date": "January 2, 2012",
+      "ArtistSiteURL": "https://djcam.bandcamp.com/",
+      "Genres": "Electronic"
+    },
+
+    {
+      "Name": "The Man",
+      "Artist": "Aloe Blacc",
+      "Album": "Lift Your Spirit",
+      "AlbumURL": "http://www.allmusic.com/album/lift-your-spirit-mw0002586642",
+      "AlbumCoverArtURL": "https://f4.bcbits.com/img/a4224416399_10.jpg",
+      "Date": "October 25, 2013",
+      "ArtistSiteURL": "http://www.aloeblacc.com/",
+      "Genres": "Contemporary R and B"
+    },
+
+    {
+      "Name": "Breakdown",
+      "Artist": "Jack Johnson",
+      "Album": "In Between Dreams",
+      "AlbumURL": "http://www.allmusic.com/album/in-between-dreams-mw0000261977",
+      "AlbumCoverArtURL": "https://images-na.ssl-images-amazon.com/images/I/71JWCAY6cvL._SL1250_.jpg",
+      "Date": "March 1, 2005",
+      "ArtistSiteURL": "http://jackjohnsonmusic.com/",
+      "Genres": "Acoustic music"
+    },
+
+    {
+      "Name": "Stay With Me",
+      "Artist": "Akcent",
+      "Album": "Fără Lacrimi",
+      "AlbumURL": "https://www.discogs.com/Akcent-F%C4%83r%C4%83-Lacrimi/release/2008985",
+      "AlbumCoverArtURL": "http://vignette1.wikia.nocookie.net/lyricwiki/images/b/bc/Akcent_-_F%C4%83r%C4%83_lacrimi.jpg/revision/latest?cb=20120106122142",
+      "Date": "February 2, 2009",
+      "ArtistSiteURL": "http://www.akcentonline.com/",
+      "Genres": "Electronic"
+    },
+
+    {
+      "Name": "Boulevard of Broken Dreams",
+      "Artist": "Green Day",
+      "Album": "American Idiot",
+      "AlbumURL": "http://www.allmusic.com/album/american-idiot-mw0000387172",
+      "AlbumCoverArtURL": "http://cps-static.rovicorp.com/3/JPG_500/MI0001/733/MI0001733843.jpg?partner=allrovi.com",
+      "Date": "September 20, 2004",
+      "ArtistSiteURL": "http://www.greenday.com/",
+      "Genres": "Punk rock"
+    }
+  ]
+
+}

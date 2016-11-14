@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="minhaalab2part4.css"?>
+<root_element xmlns:html="http://www.w3.org/1999/xhtml">
+<favorite_songs>
+   <track>
+     <song>Have a Nice Day</song>
+     <artist> <html:a title="Bon Jovi" target="_blank" href="http://www.bonjovi.com/">Bon Jovi</html:a> </artist>
+     <album><html:a title="Have a Nice Day" target="_blank" href="http://www.allmusic.com/album/have-a-nice-day-mw0000378750">Have a Nice Day</html:a></album>
+     <cover><html:img src="https://images-na.ssl-images-amazon.com/images/I/41TGE7V0K3L._SX355_.jpg" alt="Have a Nice Day" style="width:304px;height:228px;"/></cover>
+     <release>August 30, 2005</release>
+     <genre>Rock music, Hard rock, Heavy metal, Glam metal</genre>
+   </track>
+   <track>
+      <song>Rebirth of Cool</song>
+      <artist><html:a title="DJ Cam Quartet" target="_blank" href="https://djcam.bandcamp.com/">DJ Cam Quartet</html:a></artist>
+      <album><html:a title="Rebirth of Cool" target="_blank" href="http://www.allmusic.com/album/rebirth-of-cool-mw0002606195">Rebirth of Cool</html:a></album>
+      <cover><html:img src="https://f4.bcbits.com/img/a4224416399_10.jpg" alt="Rebirth of Cool" style="width:304px;height:228px;"/></cover>
+      <release>January 2, 2012</release>
+      <genre>Electronic, Hip Hop, Jazz, Funk / Soul</genre>
+    </track>
+    <track>
+      <song>The Man</song>
+      <artist><html:a title="Aloe Blacc" target="_blank" href="http://www.aloeblacc.com/">Aloe Blacc</html:a></artist>
+      <album><html:a title="Lift Your Spirit" target="_blank" href="http://www.allmusic.com/album/lift-your-spirit-mw0002586642">Lift Your Spirit</html:a></album>
+      <cover><html:img src="https://images-na.ssl-images-amazon.com/images/I/71lHp98HejL._SL1500_.jpg" alt="Lift Your Spirit" style="width:304px;height:228px;"/></cover>
+      <release>October 25, 2013</release>
+      <genre>Contemporary R/B</genre>
+    </track>
+    <track>
+      <song>Breakdown</song>
+      <artist><html:a title="Jack Johnson" target="_blank" href="http://jackjohnsonmusic.com/">Jack Johnson</html:a></artist>
+      <album><html:a title="In Between Dreams" target="_blank" href="http://www.allmusic.com/album/in-between-dreams-mw0000261977">In Between Dreams</html:a></album>
+      <cover><html:img src="https://images-na.ssl-images-amazon.com/images/I/71JWCAY6cvL._SL1250_.jpg" alt="In Between Dreams" style="width:304px;height:228px;"/></cover>
+      <release>March 1, 2005</release>
+      <genre>Acoustic music, Folk music, Folk rock</genre>
+    </track>
+    <track>
+      <song>Stay With Me</song>
+      <artist><html:a title="Akcent" target="_blank" href="http://www.akcentonline.com/">Akcent</html:a></artist>
+      <album><html:a title="Fără Lacrimi" target="_blank" href="https://www.discogs.com/Akcent-F%C4%83r%C4%83-Lacrimi/release/2008985">Fără Lacrimi</html:a></album>
+      <cover><html:img src="http://vignette1.wikia.nocookie.net/lyricwiki/images/b/bc/Akcent_-_F%C4%83r%C4%83_lacrimi.jpg/revision/latest?cb=20120106122142" alt="True Believers" style="width:304px;height:228px;"/></cover>
+      <release>February 2, 2009</release>
+      <genre>Electronic, Pop</genre>
+    </track>
+    <track>
+      <song>Boulevard of Broken Dreams</song>
+      <artist><html:a title="Green Day" target="_blank" href="http://www.greenday.com/">Green Day</html:a></artist>
+      <album><html:a title="American Idiot" target="_blank" href="http://www.allmusic.com/album/american-idiot-mw0000387172">American Idiot</html:a></album>
+      <cover><html:img src="http://cps-static.rovicorp.com/3/JPG_500/MI0001/733/MI0001733843.jpg?partner=allrovi.com" alt="American Idiot" style="width:304px;height:228px;"/></cover>
+      <release>September 20, 2004</release>
+      <genre>Punk rock, Rock opera, Pop punk, Alternative rock, Pop rock</genre>
+    </track>
+  </favorite_songs>
+  </root_element>

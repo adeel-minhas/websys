@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="minhaalab2part4.css"?>
+<root_element xmlns:html="http://www.w3.org/1999/xhtml">
+<Content>
+   <Assignmentorlab>
+     <name>Lab 1</name>
+     <description>Apache configuration</description>
+     <location>projects/labs/lab1/phpinfo().pdf</location>
+   </Assignmentorlab>
+   <Assignmentorlab>
+     <name>Lab 2</name>
+     <description>Favorite Song Playlist</description>
+     <location>projects/labs/lab2/minhaa-lab2part3.html</location>
+    </Assignmentorlab>
+    <Assignmentorlab>
+      <name>Lab 3</name>
+      <description>Use of Javascript to interact with DOM and get Nodes</description>
+      <location>projects/labs/lab3/lab3.html</location>
+    </Assignmentorlab>
+    <Assignmentorlab>
+      <name>Lab 4</name>
+      <description>JSON and AJAX</description>
+      <location>projects/labs/lab4/ITWS2110-F16-W6C2-Lab4-JSON&amp;AJAX(1)/ITWS2110-F16-W6C2-Lab4-JSON&amp;AJAX/lab4.html</location>
+    </Assignmentorlab>
+    <Assignmentorlab>
+      <name>Lab 5</name>
+      <description>Front-End Optimization</description>
+      <location>projects/labs/lab5/lab5.html</location>
+    </Assignmentorlab>
+    <Assignmentorlab>
+      <name>Lab 6</name>
+      <description>PHP, OOP and Input Handling</description>
+      <location>projects/labs/lab6/lab7start.php</location>
+    </Assignmentorlab>
+    <Assignmentorlab>
+      <name>Lab 8</name>
+      <description>SQL and phpMyAdmin</description>
+      <location>projects/labs/lab8/websyslab8.sql</location>
+    </Assignmentorlab>
+    <Assignmentorlab>
+      <name>Homework 1</name>
+      <description>Resume</description>
+      <location>projects/homeworks/homework1/Adeel-Minhas-Resume.html</location>
+    </Assignmentorlab>
+    <Assignmentorlab>
+      <name>Homework 2</name>
+      <description>Javascipt, jQuery, and jQuery Plugins (What-the-hex game)</description>
+      <location>projects/homeworks/homework2/Final-Version-(Submitted)/what-the-hex/team5-hw2.html</location>
+    </Assignmentorlab>
+  </Content>
+</root_element>

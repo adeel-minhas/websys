@@ -1,0 +1,88 @@
+html
+{
+  font-family: 'Dosis', sans-serif;
+}
+h1 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-variant: small-caps;
+}
+h1:hover
+{
+  -webkit-transform: scale(1.3);
+   -ms-transform: scale(1.3);
+   transform: scale(1.3);
+}
+h2 {
+  float: left;
+  clear: left;
+  width: 150px;
+  margin: 20px 0 0 0;
+  padding: 0;
+  font-size: 1.2em;
+}
+#contactInfo {
+/*The contact info was inside a box with two borders*/
+  border-top: 2px solid #333;
+  border-bottom: 2px solid #333;
+  padding: 4px 0  4px 0;
+  margin: 0;
+  text-align: center;
+  white-space: nowrap;
+  height:auto;
+  overflow: hidden;
+}
+#contactInfo li {
+  display: inline;
+  list-style: none;
+  margin: 0 0.25em 0 0.25em;
+  height:auto;
+  overflow: hidden;
+}
+#skills {
+  /*I had to make sure all these items were floated left (to make it look nice)*/
+    float: left;
+    font-size: 1.2em
+}
+#education {
+    float: left;
+    font-size: 1.2em
+}
+#experience {
+    float: left;
+    font-size: 1.2em
+}
+#honors {
+    float: left;
+    font-size: 1.2em
+}
+.date {
+    float:right;
+    clear:right;
+    padding: 16px
+    font-size: 1.2em
+}
+
+.photoyourself {
+    /*this was to make sure the photo was centered*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+
+#Objective {
+  float: left;
+  font-size: 1.3em;
+  font-style: italic;
+}
+
+.Name {
+/*Made sure name was centered*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-style: italic;
+  font-weight: bold;
+}

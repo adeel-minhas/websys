@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Lab 5 improved</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<style type="text/css">body{background-color:#add8e6}</style>
+	</head>
+	<body>
+		<span id ="count"></span>
+		<div class="bar"><a href="#" id="showall">Show All</a><ul id="foo" class="bar"></ul>
+		</div>
+	</body>
+	<script>
+		$(document).ready(function() {
+			element = "ul#foo";
+			listitemstring = "";
+			for (var i = 0; i < 5000; i++) {
+				listitemstring+="<li>This is an item in the list. Click to make me disappear.</li>";
+			}
+			//added a counter that will count the number of times you click a list item
+			var inc = 0;
+			$("#count").text(inc);
+			$(element).append(listitemstring);
+			//Part 1
+				$("#foo").click(function(e) {
+					if(e.target.tagName == "LI")
+				 {
+						$(e.target).hide(400);
+						//background color will change once you click a list item
+						document.body.style.backgroundColor = "red";
+						inc+=1;
+						$("#count").text(inc);
+				 }
+			});
+			$("#showall").click(function(e) {
+				$("li").each(function() {
+					$(this).show(400);
+					inc = 0;
+					$("#count").text(inc);
+					//background color will reset back once you click show all
+					document.body.style.backgroundColor = "#add8e6";
+				});
+			});
+		});
+	</script>
+</html>
