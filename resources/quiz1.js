@@ -18,6 +18,16 @@ $( function() {
     });
 } );
 
+$( function() {
+    $( "#draggable" ).draggable();
+  } );
+
+  $( function() {
+   $( "#accordion" ).accordion({
+     collapsible: true
+   });
+ } );
+
 $(document).ready(function(){
   $.ajax({
     type: "GET",
