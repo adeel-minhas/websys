@@ -39,7 +39,7 @@ $(document).ready(function(){
       var name = $(this).find('name').text();
       var description = $(this).find('description').text();
       var location = $(this).find('location').text();
-      $("#projects").append("<p><a href = " + location + ">" +  name + "</a>" + "</p>" + "<div id = accordion>" +  "<div>" + "<p>" + description + "</p>" + "</div>" + "</div>");
+      $("#projects").append("<p><a href = " + location + ">" +  name + "</a>" + "</p>" + "<p>" + description + "</p>");
       });
   }
 });
