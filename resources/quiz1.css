@@ -1,38 +1,48 @@
-html{
-  background: #4b6cb7; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #4b6cb7 , #182848); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #4b6cb7 , #182848); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-body{
-  font-family: 'Ravi Prakash', cursive;
-  font-size: 150%;
-  background: #4b6cb7; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #4b6cb7 , #182848); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #4b6cb7 , #182848); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: #f8f8ff;
-}
-#projects{
-  text-align: center;
-}
-a:before {
-  content:'';
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	width: 0px;
-	height: 42px;
-	background: rgba(255,255,255,0.3);
-	border-radius: 5px;
-	transition: all 2s ease;
+    html {
+    background: #4b6cb7;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #4b6cb7, #182848);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #4b6cb7, #182848);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-a:hover:before{
-  width: 100%;
+body {
+    font-family: 'Ravi Prakash', cursive;
+    font-size: 150%;
+    background: #4b6cb7;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #4b6cb7, #182848);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #4b6cb7, #182848);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #f8f8ff;
+}
+
+#projects {
+    text-align: center;
+}
+
+a:before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 42px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    transition: all 2s ease;
+}
+
+a:hover:before {
+    width: 100%;
 }
 
 .carousel-inner img {
     -webkit-filter: grayscale(90%);
-    filter: grayscale(90%); /* make all photos black and white */
+    filter: grayscale(90%);
+    /* make all photos black and white */
     /*height: 100px;*/
     height: 400px;
     max-height: 400px;
@@ -46,33 +56,32 @@ a:hover:before{
 
 @media (max-width: 600px) {
     .carousel-caption {
-        display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+        display: none;
+        /* Hide the carousel text when the screen is less than 600 pixels wide */
     }
-
-.toggler {
-  width: 500px;
-  height: 200px;
-  position: relative;
-}
-#button {
-  padding: .5em 1em;
-  text-decoration: none;
-}
-#effect {
-  width: 240px;
-  height: 170px;
-  padding: 0.4em;
-  position: relative;
-  background: #fff;
-}
-#effect h3 {
-  margin: 0;
-  padding: 0.4em;
-  text-align: center;
-}
-
-#draggable {
-  width: 150px;
-  height: 150px;
-  padding: 0.5em;
-}
+    .toggler {
+        width: 500px;
+        height: 200px;
+        position: relative;
+    }
+    #button {
+        padding: .5em 1em;
+        text-decoration: none;
+    }
+    #effect {
+        width: 240px;
+        height: 170px;
+        padding: 0.4em;
+        position: relative;
+        background: #fff;
+    }
+    #effect h3 {
+        margin: 0;
+        padding: 0.4em;
+        text-align: center;
+    }
+    #draggable {
+        width: 150px;
+        height: 150px;
+        padding: 0.5em;
+    }
