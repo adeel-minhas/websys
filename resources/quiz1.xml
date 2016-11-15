@@ -33,6 +33,11 @@
       <location>projects/labs/lab6/lab7start.php</location>
     </Assignmentorlab>
     <Assignmentorlab>
+      <name>Lab 7</name>
+      <description>This Website!</description>
+      <location>index.html</location>
+    </Assignmentorlab>
+    <Assignmentorlab>
       <name>Lab 8</name>
       <description>SQL and phpMyAdmin</description>
       <location>projects/labs/lab8/websyslab8.sql</location>
