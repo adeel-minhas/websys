@@ -49,19 +49,19 @@
 	) ENGINE=InnoDB DEFAULT CHARSET=latin1;");
 
 	$conn->exec("ALTER TABLE `grades`
-	  ADD PRIMARY KEY IF NOT EXISTS (`id`),
-	  ADD KEY IF NOT EXISTS `crn` (`crn`),
-	  ADD KEY IF NOT EXISTS `rin` (`rin`);");
+	  ADD PRIMARY KEY (`id`),
+	  ADD KEY `crn` (`crn`),
+	  ADD KEY `rin` (`rin`);");
 
 	$conn->exec("ALTER TABLE `students`
-	  ADD PRIMARY KEY IF NOT EXISTS (`rin`);");
+	  ADD PRIMARY KEY (`rin`);");
 
 	$conn->exec("ALTER TABLE `grades`
 	  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;");
 
 	$conn->exec("ALTER TABLE `grades`
-	  ADD CONSTRAINT `grades_crn` FOREIGN KEY IF NOT EXISTS (`crn`) REFERENCES `courses` (`crn`),
-	  ADD CONSTRAINT `grades_rin` FOREIGN KEY IF NOT EXISTS (`rin`) REFERENCES `students` (`rin`);
+	  ADD CONSTRAINT `grades_crn` FOREIGN KEY (`crn`) REFERENCES `courses` (`crn`),
+	  ADD CONSTRAINT `grades_rin` FOREIGN KEY (`rin`) REFERENCES `students` (`rin`);
 		")
 
 ?>
